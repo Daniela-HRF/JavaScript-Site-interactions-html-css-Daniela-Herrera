@@ -1,11 +1,9 @@
 body{
-    background-image: url(istockphoto-1251213542-612x612.jpg);
+    background-image: url(../img/istockphoto-1251213542-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
-
-
 #logo{
     height: 170px;
     display: block;
@@ -25,25 +23,24 @@ body{
     padding-bottom :1em; 
 }
 #unique2{
-    background-color: rgba(255, 127, 80, 0.68);
+    background-color: rgba(159, 207, 140, 0.811);
     color: #ffffff;
     width: 30%;
-    height: 500%;
+    height: 300%;
     display: flex;
     flex-flow: wrap;
-    min-height: 50vh;
+    min-height: 55.7vh;
     justify-content: center;
     margin: 0;
     padding : 5em;
     padding-top: 2em;
     padding-bottom :1em; 
-    
 }
 #unique3{
-    background-color:  rgba(255, 127, 80, 0.68);
+    background-color:  rgba(159, 207, 140, 0.811);
     color: #ffffff;
     width: 30%;
-    height: 500%;
+    height: 300%;
     display: flex;
     flex-flow: wrap;
     min-height: 50vh;
@@ -58,21 +55,20 @@ body{
     justify-content: center;
     font-size: medium;
     height: 60%;
-    margin-top: 140px;
+    margin-top: 180px;
 }
-
 footer{
-    margin:0 color gold;
+    margin:0;
     padding:3em;
     text-align: center;
     column-count : 3;
     display: flex;
     justify-content: space-around;
+   
 }
 footer p{
     width : 30%
 }
-
 main{
     text-align: center;
     display: flex;

@@ -1,5 +1,5 @@
 body{
-    background-image: url(istockphoto-1251213542-612x612.jpg);/*para poner una imagen*/
+    background-image: url(../img/istockphoto-1251213542-612x612.jpg);/*para poner una imagen*/
     background-repeat: no-repeat;
     background-size: cover;
     
