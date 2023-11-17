@@ -1,0 +1,120 @@
+body{
+    background-image: url(istockphoto-1251213542-612x612.jpg);/*para poner una imagen*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#logo{
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+}
+q{
+    color: chocolate;
+}
+
+
+#navlisa{
+    color: gold;
+
+}
+.A{
+    background-color: rgba(57, 215, 65, 0.635);
+    width: 50%;
+    display: flex;
+    flex-flow : row-reverse nowrap;
+   
+    justify-content : space-around;
+    padding : 7em;
+    padding-top: 2em;
+    padding-bottom :2em;
+   
+    margin-top: 180px;
+    color: aliceblue;
+}
+#navmarge{
+    color: gold;
+}
+#marge{
+    background-color: #2374b795;
+}
+#navhomer{
+    color: gold;
+}
+#homer{
+    background-color: #41b7b3a7;
+}
+#navbart{
+    color: gold;
+}
+#bart{
+    background-color: rgba(227, 149, 33, 0.642);
+}
+#navmaggie{
+    color: gold;
+}
+#maggie{
+    background-color: rgba(255, 127, 80, 0.733)
+}
+footer{
+    margin:0;
+    padding:3em;
+    text-align: center;
+    column-count : 3;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    width : 30%
+}
+main{
+    display : flex; 
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.multiple{
+    margin-top: 160px; /*pour baisse les textes*/
+}
+.multiple2{
+    margin-top: 200px;
+}
+.multiple3{
+    margin-top: 130px;
+
+}
+@media all and (max-device-width: 481px){
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+       display: flex;
+      column-count: 3;
+    }
+    .A{
+        flex-direction: column-reverse;
+       
+    }
+    .multiple{
+        margin-top: 0px;
+    }
+    .multiple2{
+        margin-top: 0px;
+    }
+    .multiple3{
+        margin-top: 0px;
+    
+    }
+    footer{
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+    }
+
+    
+    
+}
+
+
+
+
+/*sharemycode.fr/g5k    mas flexbox */ 
