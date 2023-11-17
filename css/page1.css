@@ -23,7 +23,6 @@ q{
     width: 50%;
     display: flex;
     flex-flow : row-reverse nowrap;
-   
     justify-content : space-around;
     padding : 7em;
     padding-top: 2em;
@@ -113,7 +112,6 @@ main{
     
     
 }
-
 
 
 
