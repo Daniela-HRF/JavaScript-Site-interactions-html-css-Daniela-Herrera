@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <header>CLUB DE FANS DES SIMPSONS </header>
+    <div class="message-error">
+        <ul></ul>
+    </div>
+    <div class="message-success">
+        
+    </div>
+    <form action=""  method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Votre name">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="votre mail">
+        </div>
+        <div>
+            <label for="mot de passe">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="votre mot de passe">
+        </div>
+        <div>
+            <label for="password2">entrer à nouveau le mot de passe</label>
+            <input type="password2" id="password2" name="password2" placeholder="votre mot de passe again">
+        </div>
+
+        <p>Veuillez choisir votre personnage préféré :</p>
+  <div>
+    <input type="radio" id="contactChoice1" name="personnage" value="Bart" />
+    <label for="contactChoice1">Bart</label>
+
+    <input type="radio" id="contactChoice2" name="personnage" value="Lissa" />
+    <label for="contactChoice2">Lissa</label>
+
+    <input type="radio" id="contactChoice3" name="personnage" value="Maggie" />
+    <label for="contactChoice3">Maggie</label>
+
+    <input type="radio" id="contactChoice3" name="personnage" value="Marge" />
+    <label for="contactChoice3">Marge</label>
+
+    <input type="radio" id="contactChoice3" name="personnage" value="Homer" />
+    <label for="contactChoice3">Homer</label>
+  </div>
+  
+  <div class="age">
+    <label for="age-select">Choisissez votre age</label>
+    <select name=" age select" id="age-select">
+        <option value="1-10"></option>
+        <option value="10-16"></option>
+        <option value="16-25"></option>
+        <option value="25-40"></option>
+        <option value="40-100"></option>
+    </select>
+  </div>
+  
+        <div>
+            <input type="submit" value="envoyer">
+         
+        </div>
+    </form>
+    <script src="formulaire.js"></script>
+</body>
+</html>

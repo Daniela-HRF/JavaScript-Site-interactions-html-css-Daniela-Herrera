@@ -13,6 +13,8 @@ q{
     color: chocolate;
 }
 
+   
+
 
 #navlisa{
     color: gold;
@@ -80,6 +82,13 @@ main{
 .multiple3{
     margin-top: 130px;
 
+
+}
+
+.menu{
+    width: 100px;
+    height: 30px;
+    transition: 4s;
 }
 @media all and (max-device-width: 481px){
     main{
@@ -112,6 +121,96 @@ main{
     
     
 }
+
+.red {
+    color: red;
+}
+
+.accordeon {
+    border: 1px solid rgba(146, 146, 146, 0.3);
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    color: white;
+}
+
+.titre {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+    color: black;
+}
+
+.contenu {
+    padding: 0 20px;
+    height: 0;
+    visibility: hidden
+}
+
+#fleche {
+    width: 50px;
+    height: 50px;
+}
+
+.titre img {
+    width: 200px;
+    height: 120px;
+    transition: 0,2s;
+}
+.titre{
+    color: rgb(143, 138, 138);
+}
+
+.accordeon.open .titre img {
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+.contenu {
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0,4s;
+    color: rgb(143, 138, 138);
+}
+
+.accordeon.open .contenu {
+    padding: 30px 20px;
+    height: auto;
+    visibility: visible;
+}
+
+.diva{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    letter-spacing: 1px;
+    padding-left: 3vw;
+    width: 50%;
+   
+}
+.diva a{
+    text-decoration: none;
+}
+
+/*DARKMODE*/
+.darkmode{
+    background-color: black;
+}
+body.darkmode{
+    color: rgb(255, 255, 255);
+    background-image: none;
+    
+}
+.darkmode{
+    color: rgb(255, 255, 255);
+    background-image: none;
+    
+}
+
 
 
 

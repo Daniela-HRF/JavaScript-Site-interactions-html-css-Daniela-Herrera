@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    height: 100%;
+}
+
+body{
+    background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-left :100px
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.slide-dw {
+   background: ur;
+   background-size : cover
+}
+.swiper-slide.slide-A{
+    background: url(../img/Lisa_Simpson.webp);
+    background-repeat: no-repeat;
+    
+}
+
+.swiper-slide.slide-B{
+    background: url(../img/Maggie_Simpson.webp);
+    background-repeat: no-repeat;
+}
+
+.swiper-slide.slide-C{
+    background: url(../img/marge-simpson-png-3.png);
+    background-repeat: no-repeat;
+}
+.subtitle {
+    color: #000000;
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+}
+
+
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height:18px;
+}
+body .swiper-pagination-bullet-active {
+    background: orangered;
+}
+body .swiper-button-next,
+body .swiper-button-prev{
+    color: orangered;
+}
+    
